@@ -1,0 +1,10 @@
+Проделано:
+Пытаюсь сделать на ByteBuf
+пока только сделал MessageDecoder, MessageEncoder, и MessageHandler(MessageProcessor processor)
+
+Вопросы:
+1. lombok не подключается.
+   Правильно ли я, пытаясь обойтись без lombok,
+   сделал в каждом классе
+   private static Logger log = LoggerFactory.getLogger(Server.class);
+   и использую этот log - ?
